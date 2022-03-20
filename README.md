@@ -1,7 +1,6 @@
 # plumV3 (plum)
 
-Building Plum with from vue 3
-This app is getting complex and I thought I could redesign and rebuild it better with Vue 3
+Building Plum with vue 3. This app is getting complex and I thought I could redesign and rebuild it better with Vue 3
 Can anyone assist with nesting child & grandchild routes in Vue?
 
 Also, check out the initial Plum from here => https://github.com/K45-94/plum-frontend-backend
