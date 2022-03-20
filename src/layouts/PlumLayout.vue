@@ -164,7 +164,7 @@
     </q-header>
     <q-footer class="small-screen-only" bordered>
       <q-tabs class="text-white" active-color="pink-10">
-        <q-route-tab to="/" icon="eva-home" />
+        <q-route-tab to="/feeds" icon="eva-home" />
         <q-route-tab to="/search" icon="eva-search" />
         <q-route-tab to="/camera" icon="eva-camera" />
         <q-route-tab to="/light" icon="eva-bulb" />
