@@ -4,6 +4,10 @@ const routes = [
     component: () => import("src/layouts/PlumLayout.vue"),
     children: [
       {
+        path: "",
+        redirect: "/feeds",
+      },
+      {
         path: "/feeds",
         component: () => import("src/pages/PageFeeds.vue"),
       },

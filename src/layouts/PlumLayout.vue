@@ -2,46 +2,8 @@
   <q-layout view="lHh lpr lFf lHr lpR fFf" class="shadow-2 rounded-borders">
     <q-header class="text-secondary" bordered>
       <q-toolbar class="text-white" active-color="secondary">
-        <q-btn
-          v-if="$route.fullPath.includes('/chat')"
-          class="q-mr-lg q-ml-xs q-mb-xs absolute-left"
-          v-go-back.single
-          icon="eva-arrow-ios-back-outline"
-          flat
-          dense
-          color="white"
-        />
-        <q-btn
-          to="/auth"
-          class="absolute-right q-mr-md q-ml-xs q-mb-xs small-screen-only absolutely-right"
-          icon="eva-log-out-outline"
-          no-caps
-          flat
-          dense
-          color="white"
-        />
-        <q-btn
-          to="/camera"
-          class="large-screen-only q-mr-sm"
-          icon="eva-camera-outline"
-          size="18px"
-          flat
-          round
-          dense
-        />
-        <q-separator class="large-screen-only" vertical spaced />
-        <q-btn
-          to="/Profile"
-          class="large-screen-only q-mr-sm"
-          icon="eva-square-outline"
-          size="18px"
-          flat
-          round
-          dense
-        />
-        <q-separator class="large-screen-only" vertical spaced />
         <q-toolbar-title
-          class="q-ml-xl q-mr-xl text-weight-bold text-white text-center"
+          class="q-ml-xl q-mr-xl text-weight-bold text-white text-center text-body1"
         >
           <span class="q-pa-md"
             >PLUM
@@ -131,35 +93,6 @@
             </q-icon>
           </span>
         </q-toolbar-title>
-        <q-btn
-          to="/"
-          class="large-screen-only"
-          icon="eva-home-outline"
-          size="18px"
-          flat
-          round
-          dense
-        />
-        <q-separator class="large-screen-only" vertical spaced />
-        <q-btn
-          to="/light"
-          class="large-screen-only q-mr-sm"
-          icon="eva-bulb-outline"
-          size="18px"
-          flat
-          round
-          dense
-        />
-        <q-separator class="large-screen-only" vertical spaced />
-        <q-btn
-          to="/search"
-          class="large-screen-only"
-          icon="eva-search-outline"
-          size="18px"
-          flat
-          round
-          dense
-        />
       </q-toolbar>
     </q-header>
     <q-footer class="small-screen-only" bordered>
