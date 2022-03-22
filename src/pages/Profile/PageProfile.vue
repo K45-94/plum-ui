@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import Page from "src/components/PagePlumComponent/Page.vue";
 import { defineComponent } from "vue";
+import Page from "src/components/PagePlumComponent/Page.vue";
 import PageHeader from "src/components/PagePlumComponent/PageHeader.vue";
 import PageBody from "src/components/PagePlumComponent/PageBody.vue";
 
