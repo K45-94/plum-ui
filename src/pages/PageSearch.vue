@@ -1,7 +1,7 @@
 <template>
   <page>
     <page-header> <template #title> SEARCH </template></page-header>
-    <page-body></page-body>
+    <page-body> </page-body>
   </page>
 </template>
 

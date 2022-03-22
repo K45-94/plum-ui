@@ -1,16 +1,15 @@
 <template>
   <q-layout view="lHh lpr lFf lHr lpR fFf" class="shadow-2 rounded-borders">
-    <q-footer class="small-screen-only" bordered>
-      <q-tabs class="text-white" active-color="secondary">
-        <q-route-tab to="/feeds" icon="eva-home" />
-        <q-route-tab to="/search" icon="eva-search" />
-        <q-route-tab to="/camera" icon="eva-camera" />
-        <q-route-tab to="/light" icon="eva-bulb" />
-        <q-route-tab to="/profile" icon="eva-square" />
-      </q-tabs>
-    </q-footer>
-
     <q-page-container class="bg-white">
+      <q-footer class="small-screen-only" bordered>
+        <q-tabs class="text-white" active-color="secondary">
+          <q-route-tab to="/feeds" icon="eva-home" />
+          <q-route-tab to="/search" icon="eva-search" />
+          <q-route-tab to="/camera" icon="eva-camera" />
+          <q-route-tab to="/light" icon="eva-bulb" />
+          <q-route-tab to="/profile" icon="eva-square" />
+        </q-tabs>
+      </q-footer>
       <router-view />
     </q-page-container>
   </q-layout>
