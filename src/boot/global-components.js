@@ -2,6 +2,8 @@ import { boot } from "quasar/wrappers";
 
 const globalComponents = {
   pagePlum: require("components/PagePlumComponent/Page").default,
+  pageHeader: require("components/PagePlumComponent/PageHeader").default,
+  pageBody: require("components/PagePlumComponent/PageBody").default,
 };
 
 export default boot(async ({ app }) => {

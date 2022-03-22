@@ -1,5 +1,8 @@
 <template>
-  <page> page </page>
+  <page>
+    <page-header> <template #title> LIGHT </template></page-header>
+    <page-body></page-body>
+  </page>
 </template>
 
 <script>

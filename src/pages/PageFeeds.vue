@@ -1,6 +1,9 @@
 <template>
   <page>
-    page
+    <page-header>
+      <template #title> PLUM </template>
+    </page-header>
+    <page-body></page-body>
     <router-view />
   </page>
 </template>
