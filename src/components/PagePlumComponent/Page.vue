@@ -101,11 +101,13 @@
 
     <q-scroll-area class="page-body absolute-top fit text-black">
       <div class="page-body-spacer-header"></div>
-      <p v-for="i in 30" :key="i">
-        Building Plum with vue 3. This app is getting complex and I thought I
-        could redesign and rebuild it better with Vue 3 Finally found a way for
-        nesting child pages in routes.
-      </p>
+      <div class="q-pa-lg">
+        <p v-for="i in 30" :key="i">
+          Building Plum with vue 3. This app is getting complex and I thought I
+          could redesign and rebuild it better with Vue 3 Finally found a way
+          for nesting child pages in routes.
+        </p>
+      </div>
       <div class="page-body-spacer-footer"></div>
     </q-scroll-area>
   </div>
