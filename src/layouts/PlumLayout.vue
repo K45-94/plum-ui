@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh lpr lFf lHr lpR fFf" class="shadow-2 rounded-borders">
     <q-footer class="small-screen-only" bordered>
-      <q-tabs class="text-white" active-color="pink-10">
+      <q-tabs class="text-white" active-color="secondary">
         <q-route-tab to="/feeds" icon="eva-home" />
         <q-route-tab to="/search" icon="eva-search" />
         <q-route-tab to="/camera" icon="eva-camera" />
