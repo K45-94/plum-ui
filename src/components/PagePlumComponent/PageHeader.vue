@@ -6,6 +6,7 @@
       class="q-toolbar row no-wrap items-center text-white"
       active-color="secondary"
     >
+      <slot name="button-left" />
       <div
         class="q-toolbar__title ellipsis q-ml-xl q-mr-xl text-weight-bold text-white text-center text-body1"
       >
