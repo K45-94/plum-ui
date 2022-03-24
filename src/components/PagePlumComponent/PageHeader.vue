@@ -8,7 +8,7 @@
     >
       <slot name="button-left" />
       <div
-        class="q-toolbar__title ellipsis q-ml-xl q-mr-xl text-weight-bold text-white text-center text-body1"
+        class="page-header-title q-toolbar__title ellipsis q-pl-none q-ml-md text-weight-light text-white text-center text-body1"
       >
         <span class="q-pa-md text-white">
           <slot name="title" />
