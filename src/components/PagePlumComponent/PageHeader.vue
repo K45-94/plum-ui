@@ -9,7 +9,7 @@
       <div
         class="q-toolbar__title ellipsis q-ml-xl q-mr-xl text-weight-bold text-white text-center text-body1"
       >
-        <span class="q-pa-md text-negative">
+        <span class="q-pa-md text-white">
           <slot name="title" />
           <i class="q-icon q-pa-md" aria-hidden="true" role="presentation"
             ><svg
@@ -105,4 +105,14 @@ export default {
 };
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.q-header
+    background: linear-gradient(145deg,#363020 15%,#605c4E 85%)
+.q-toolbar
+  @media (min-width: $breakpoint-sm-min)
+    height: 77px
+.q-toolbar_title
+  font-size: 30px
+  @media (max-width: $breakpoint-xs-max)
+    text-align: center
+</style>
