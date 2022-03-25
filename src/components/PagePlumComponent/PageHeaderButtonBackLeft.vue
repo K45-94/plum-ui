@@ -1,7 +1,7 @@
 <template>
   <q-btn
     to="/"
-    label="Home"
+    label="Profile"
     icon="chevron_left"
     color="primary"
     flat

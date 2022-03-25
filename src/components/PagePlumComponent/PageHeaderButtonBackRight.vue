@@ -1,7 +1,7 @@
 <template>
   <q-btn
     to="/"
-    label="Home"
+    label="Settings"
     icon="chevron_right"
     color="primary"
     flat
