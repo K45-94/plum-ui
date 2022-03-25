@@ -96,6 +96,7 @@
               </g></svg></i
         ></span>
       </div>
+      <slot name="button-right" />
     </div>
   </header>
 </template>

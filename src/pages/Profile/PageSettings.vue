@@ -16,7 +16,6 @@ import PageHeaderButtonBackLeft from "src/components/PagePlumComponent/PageHeade
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  components: { PageHeaderButtonBackLeft },
   components: [Page, PageHeader, PageHeaderButtonBackLeft],
   name: "PageSettings",
   data() {
