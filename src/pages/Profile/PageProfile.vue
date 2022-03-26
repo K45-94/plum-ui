@@ -3,7 +3,10 @@
     <page-header>
       <template #title> PROFILE </template>
       <template #button-right>
-        <page-header-button-back-right to="profile/settings" label="settings" />
+        <page-header-button-back-right
+          to="/profile/settings"
+          label="settings"
+        />
       </template>
     </page-header>
     <page-body></page-body>
