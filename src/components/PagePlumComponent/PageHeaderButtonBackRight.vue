@@ -8,6 +8,7 @@
     rounded
     dense
     no-caps
+    class="absolute-right q-pr-lg"
   />
 </template>
 
