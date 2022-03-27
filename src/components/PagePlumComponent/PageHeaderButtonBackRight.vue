@@ -1,7 +1,5 @@
 <template>
   <q-btn
-    to="/"
-    label=""
     icon="chevron_right"
     color="primary"
     flat
