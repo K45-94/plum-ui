@@ -1,6 +1,6 @@
 <template>
   <q-btn
-    icon="chevron_right"
+    icon-right="chevron_right"
     color="primary"
     flat
     rounded
