@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "PageHeaderButtonBackRight",
+  name: "PageHeaderButtonForwardRight",
 };
 </script>
 

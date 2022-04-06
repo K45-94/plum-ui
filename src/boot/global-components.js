@@ -5,8 +5,9 @@ const globalComponents = {
   pageHeader: require("components/PagePlumComponent/PageHeader").default,
   pageHeaderButtonBackLeft:
     require("components/PagePlumComponent/PageHeaderButtonBackLeft").default,
-  pageHeaderButtonBackRight:
-    require("components/PagePlumComponent/PageHeaderButtonBackRight").default,
+  pageHeaderButtonForwardRight:
+    require("components/PagePlumComponent/PageHeaderButtonForwardRight")
+      .default,
   pageBody: require("components/PagePlumComponent/PageBody").default,
 };
 
