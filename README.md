@@ -3,6 +3,7 @@
 Building Plum with vue 3. This app is getting complex and I thought I could redesign and rebuild it better with Vue 3
 Finally found a way for nesting child pages in routes.
 Optimizing mobile/small-screen view before we jump to large-screen view.
+So far, you can fork this template and use it for your vue projects. Contact through kelvinhiuhu@live.com
 
 Also, check out the initial Plum from here => https://github.com/K45-94/plum-frontend-backend
 
