@@ -3,7 +3,7 @@
     <page-header>
       <template #title> PROFILE </template>
       <template #button-right>
-        <page-header-button-forward-right
+        <page-header-button-back-right
           to="/profile/settings"
           label="settings"
         />
@@ -17,11 +17,11 @@
 import { defineComponent } from "vue";
 import Page from "src/components/PagePlumComponent/Page.vue";
 import PageHeader from "src/components/PagePlumComponent/PageHeader.vue";
-import PageHeaderButtonForwardRight from "src/components/PagePlumComponent/PageHeaderButtonForwardRight.vue";
+import PageHeaderButtonBackRight from "src/components/PagePlumComponent/PageHeaderButtonForwardRight.vuevue";
 import PageBody from "src/components/PagePlumComponent/PageBody.vue";
 
 export default defineComponent({
-  components: { Page, PageHeader, PageBody, PageHeaderButtonForwardRight },
+  components: { Page, PageHeader, PageBody, PageHeaderButtonBackRight },
   name: "PageProfile",
 });
 </script>
