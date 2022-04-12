@@ -1,13 +1,14 @@
 <template>
   <div class="page absolute-top fit shadow-10">
     <slot />
+
     <router-view v-slot="{ Component }">
       <transition
         appear
         enter-active-class="animated slideInRight slow"
         leave-active-class="animated slideOutRight slow"
       >
-        <component :is="Component" />
+        <keep-alive><component :is="Component" /></keep-alive>
       </transition>
     </router-view>
   </div>
