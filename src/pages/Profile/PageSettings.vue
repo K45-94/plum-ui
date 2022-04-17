@@ -27,11 +27,5 @@ import { defineComponent } from "vue";
 export default defineComponent({
   components: [Page, PageHeader, PageHeaderButtonBackLeft],
   name: "PageSettings",
-  data() {
-    return {
-      NotificationsToggle: "On",
-      ThemeToggle: "Dark",
-    };
-  },
 });
 </script>
