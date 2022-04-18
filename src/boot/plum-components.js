@@ -1,6 +1,6 @@
 import { boot } from "quasar/wrappers";
 
-const globalComponents = {
+const plumComponents = {
   page: require("components/PagePlumComponent/Page").default,
   pageHeader: require("components/PagePlumComponent/PageHeader").default,
   pageHeaderButtonBackLeft:
@@ -12,7 +12,7 @@ const globalComponents = {
 };
 
 export default boot(async ({ app }) => {
-  for (const key in globalComponents) {
-    app.component(key, globalComponents[key]);
+  for (const key in plumComponents) {
+    app.component(key, plumComponents[key]);
   }
 });

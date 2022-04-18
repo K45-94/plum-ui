@@ -1,12 +1,6 @@
 <template>
   <div class="page absolute-top fit shadow-10">
-    <div
-      v-touch-swipe.mouse.right="handleSwipeRight"
-      class="page-nudger fit"
-      :class="{ 'nudge-left': hasActiveChildPage }"
-    >
-      <slot />
-    </div>
+    <slot />
     <router-view v-slot="{ Component }">
       <transition
         appear
