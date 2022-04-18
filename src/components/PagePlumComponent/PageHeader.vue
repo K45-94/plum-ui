@@ -10,7 +10,7 @@
       <div
         class="page-header-title q-toolbar__title ellipsis q-pl-none q-ml-md text-weight-light text-white text-center text-body1"
       >
-        <span class="q-pa-md text-white">
+        <span class="q-pa-md text-secondary">
           <slot name="title" />
           <i class="q-icon q-pa-md" aria-hidden="true" role="presentation"
             ><svg
