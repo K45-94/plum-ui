@@ -1,7 +1,7 @@
 import { reactive } from "vue";
 
 const state = reactive({
-  usePageTransition: false,
+  usePageTransition: true,
 });
 
 const store = {
