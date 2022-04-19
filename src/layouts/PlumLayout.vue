@@ -3,11 +3,12 @@
     <q-page-container class="bg-white">
       <q-footer class="small-screen-only" bordered>
         <q-tabs class="text-white" active-color="secondary">
-          <q-route-tab to="/feeds" icon="eva-home" />
-          <q-route-tab to="/search" icon="eva-search" />
-          <q-route-tab to="/camera" icon="eva-camera" />
-          <q-route-tab to="/light" icon="eva-bulb" />
-          <q-route-tab to="/profile" icon="eva-square" />
+          <q-route-tab
+            v-for="navItem in store.state.navItems"
+            :key="navItem.root"
+            :to="navItem.to"
+            :icon="navItem.icon"
+          />
         </q-tabs>
       </q-footer>
       <router-view v-slot="{ Component }">
@@ -18,9 +19,12 @@
 </template>
 
 <script>
+import store from "src/plumStore";
 export default {
-  data() {
-    return {};
+  setup() {
+    return {
+      store,
+    };
   },
 };
 </script>
