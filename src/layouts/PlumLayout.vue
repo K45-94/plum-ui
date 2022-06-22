@@ -8,6 +8,7 @@
             :key="navItem.root"
             :to="navItem.to"
             :icon="navItem.icon"
+            class="col"
           />
         </q-tabs>
       </q-footer>
